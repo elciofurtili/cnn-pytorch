@@ -1,4 +1,4 @@
-# 🧠 Classificação de Imagens com CNNs - CIFAR-10 (Atividade 4 - Redes Neurais Artificiais)
+# 🧠 Classificação de Imagens com CNNs - CIFAR-10
 
 Este projeto implementa redes neurais convolucionais (CNNs) utilizando **PyTorch** para classificação de imagens do dataset **CIFAR-10**, como parte da Atividade 4 da disciplina de Redes Neurais Artificiais (PPGCC - UNESP).
 
@@ -30,8 +30,8 @@ Implementar e treinar diferentes arquiteturas de redes convolucionais para class
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/seu-usuario/cnn-cifar10-atividade4.git
-cd cnn-cifar10-atividade4
+git clone git@github.com:elciofurtili/cnn-pytorch.git
+cd cnn-pytorch
 pip install -r requirements.txt
 ```
 
