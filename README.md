@@ -1,10 +1,8 @@
-# 🧠 Classificação de Imagens com CNNs - CIFAR-10
+# Classificação de Imagens com CNNs - CIFAR-10
 
 Este projeto implementa redes neurais convolucionais (CNNs) utilizando **PyTorch** para classificação de imagens do dataset **CIFAR-10**, como parte da Atividade 4 da disciplina de Redes Neurais Artificiais (PPGCC - UNESP).
 
----
-
-## 📚 Objetivo
+## Objetivo
 
 Implementar e treinar diferentes arquiteturas de redes convolucionais para classificar imagens em 10 categorias do conjunto CIFAR-10, explorando:
 
@@ -13,9 +11,7 @@ Implementar e treinar diferentes arquiteturas de redes convolucionais para class
 - Avaliação do desempenho com métricas de acurácia
 - Visualização de filtros e predições
 
----
-
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.10+
 - PyTorch
@@ -23,9 +19,7 @@ Implementar e treinar diferentes arquiteturas de redes convolucionais para class
 - Matplotlib
 - NumPy
 
----
-
-## 📦 Instalação e Execução
+## Instalação e Execução
 
 Clone o repositório e instale as dependências:
 
@@ -41,9 +35,7 @@ Execute o script principal:
 python cnn_cifar10.py
 ```
 
----
-
-## 🧪 Arquiteturas Testadas
+## Arquiteturas Testadas
 
 | Modelo  | Camadas Convolucionais | Filtros                 | Dropout (FC) | Acurácia Validação | Acurácia Teste | Overfitting |
 |---------|-------------------------|-------------------------|---------------|---------------------|----------------|-------------|
@@ -54,24 +46,20 @@ python cnn_cifar10.py
 
 ---
 
-## 🔍 Resultados e Conclusões
+## Resultados e Conclusões
 
 - A arquitetura **CNN 3** (4 camadas + Dropout) apresentou o melhor equilíbrio entre complexidade e generalização.
 - O uso de Dropout nas camadas totalmente conectadas foi essencial para conter overfitting.
 - O aumento progressivo do número de filtros teve impacto positivo na capacidade da rede aprender características visuais.
 
----
-
-## 🖼️ Visualizações
+## Visualizações
 
 O projeto também exibe:
 
 - Filtros da primeira camada convolucional
 - Exemplos de predições corretas e incorretas
 
----
-
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 cnn-cifar10-atividade4/
@@ -82,6 +70,6 @@ cnn-cifar10-atividade4/
 
 ---
 
-## 👨‍🏫 Autoria
+## Autoria
 
 Atividade desenvolvida para a disciplina de **Redes Neurais Artificiais** - PPGCC UNESP.
