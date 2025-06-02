@@ -44,8 +44,6 @@ python cnn_cifar10.py
 | CNN 3   | 4                       | [64, 64, 128, 128]      | 0.3           | 79.1%               | 78.5%          | Reduzido    |
 | CNN 4   | 3                       | [64, 128, 128]          | **sem Dropout** | 81.2%               | 74.8%          | Alto        |
 
----
-
 ## Resultados e Conclusões
 
 - A arquitetura **CNN 3** (4 camadas + Dropout) apresentou o melhor equilíbrio entre complexidade e generalização.
@@ -67,8 +65,6 @@ cnn-cifar10-atividade4/
 ├── README.md                # Este arquivo
 └── requirements.txt         # Dependências do projeto
 ```
-
----
 
 ## Autoria
 
